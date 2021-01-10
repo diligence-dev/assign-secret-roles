@@ -19,7 +19,7 @@ const UseQueryParamExample = () => {
         8: ['Seherin', 'Werwolf', 'Dorfi', 'Dorfi', 'Dorfi', 'Dorfi', 'Werwolf', 'Dorfi'],
         9: ['Seherin', 'Werwolf', 'Dorfi', 'Dorfi', 'Dorfi', 'Dorfi', 'Werwolf', 'Freimaurer', 'Freimaurer'],
         10: ['Seherin', 'Werwolf', 'Dorfi', 'Dorfi', 'Dorfi', 'Dorfi', 'Werwolf', 'Freimaurer', 'Freimaurer', 'Dorfi']
-        }[nPlayers], seed)[position]
+        }[nPlayers || 3], seed || 123)[position || 0]
       }
     </div>
   );

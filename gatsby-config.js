@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/assign-secret-roles",
   plugins: [
     "gatsby-plugin-use-query-params",
   ],
